@@ -6,8 +6,8 @@ session_start();
 
 // Function to send Telegram notifications
 function sendTelegramNotification($message) {
-    $botToken = "7249901987:AAH0MRoTva05NBULGZKaNB6agIkHYuRkgpY";
-    $chatId = "1492036636";
+    $botToken = "********";
+    $chatId = "*****";
     $url = "https://api.telegram.org/bot$botToken/sendMessage?chat_id=$chatId&text=" . urlencode($message);
     
     $response = file_get_contents($url);
@@ -721,29 +721,29 @@ $conn->close();
     <div class="contact-section">
         <div class="contact-left">
             <h1 style="color:white; margin-bottom:20px;">Contact Us</h1>
-            <a href="tel:+905415257002" style="text-decoration: none; color: white; display: block; margin-bottom: 20px; margin-left:0px;">+90 (541) 525 7002</a>
-            <a href="tel:+905350217002" style="text-decoration: none; color: white;display: block; margin-bottom: 20px; margin-left:0px;"">+90 (535) 021 7002</a>
+            <a href="tel:****" style="text-decoration: none; color: white; display: block; margin-bottom: 20px; margin-left:0px;">+90 (541) 525 7002</a>
+            <a href="tel:*****" style="text-decoration: none; color: white;display: block; margin-bottom: 20px; margin-left:0px;"">+90 (535) 021 7002</a>
             <div class="social-icons">
-                <a href="https://www.instagram.com/kaslitravelagency?igsh=eWk5bTYyZWE2c3Jm&utm_source=qr" target="_blank">
+                <a href="#" target="_blank">
                     <img src="images/instagram.png" alt="Instagram" style="margin-right:10px;">
                 </a>
-                <a href="https://t.me/Kasli_travel_agency" target="_blank">
+                <a href="#" target="_blank">
                     <img src="images/telegram.png" alt="Telegram" style="margin-right:10px;">
                 </a>
-                <a href="https://wa.me/++905350217002" target="_blank">
+                <a href="#" target="_blank">
                     <img src="images/whatsapp.png" alt="WhatsApp">
                 </a>
             </div>
         </div>
         <div class="contact-right">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3219.0607221931805!2d29.676032600000003!3d36.213719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c1db9b22c90b73%3A0xe38ad2eafc9896f5!2sKa%C5%9Fl%C4%B1%20Travel%20Agency%20-%20Dalaman%20%26%20Antalya%20Airport%20Transfer!5e0!3m2!1str!2str!4v1719530683331!5m2!1str!2str"  style="border:10px;margin-top:35px;width:98%;height:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="#"  style="border:10px;margin-top:35px;width:98%;height:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
     
 <div class="tursab-verification" style="text-align:center; margin: 20px 0; border: 3px solid #ccc; background-color: #f0f8ff; padding: 20px; border-radius: 20px;">
     <img src="images/TURSAB.png" alt="TURSAB Verified" style="max-width: 100px; margin-bottom: 10px;">
     <p style="color:black;">Kaşlı Travel Agency is a TURSAB certified travel agency. You can trust our services for safe and reliable transportation.</p>
-    <p style="color:black;">Certificate Number: 8214</p>
+    <p style="color:black;">Certificate Number: AAA</p>
     <a href="https://www.tursab.org.tr" target="_blank" style="color:blue; text-decoration: underline;">Verify TURSAB Membership</a>
 </div>
 
